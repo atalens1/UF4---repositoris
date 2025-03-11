@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        
+        Incidencia inc1 = new Incidencia(1, "Configuració errònia xarxa");
+
+        inc1.mostrarDetalle();
     }
 }
